@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
 
-import { App } from './passing.data.child.to.child';
+import { App } from './components/component.communicating/child.to.child';
 
 
 ReactDOM.render(

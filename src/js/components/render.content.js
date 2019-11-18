@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 // the class syntax
 // used if you've got other stuff live state and events to handle
 class ClassSyntax extends Component {
-    render() {
+    render = () => {
         // use the empty tags to avoid injecting unnecessary divs into your content
         return (
             <>
@@ -14,7 +14,8 @@ class ClassSyntax extends Component {
     }
 }
 
-// for light elements
+// for light elements. No access to stuff like props, state, events
+// TODO: What about hooks?
 const FunctionSyntax = () =>
     <>
         <h1>Using the Function syntax to render</h1>
